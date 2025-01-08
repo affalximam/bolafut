@@ -1,0 +1,32 @@
+ErrorDocument 401 /
+ErrorDocument 402 /
+ErrorDocument 403 /
+ErrorDocument 404 /
+ErrorDocument 500 /
+
+Options -Indexes
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php
+</IfModule>
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.*)$ $1.html
+</IfModule>
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Allow access to existing files and directories
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Redirect all requests like /something to index.php?page=something
+    RewriteRule ^([^/]+)$ index.php?page=$1 [QSA,L]
+</IfModule>
