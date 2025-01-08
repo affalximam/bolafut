@@ -1,0 +1,677 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.pt-sans-regular {
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.pt-sans-bold {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.pt-sans-regular-italic {
+    font-family: "PT Sans", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.pt-sans-bold-italic {
+    font-family: "PT Sans", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/* ################################################### */
+/* FONT SIZE */
+/* ################################################### */
+
+.font-size-1-0em {
+    font-size: 1em;
+}
+
+.font-size-1-05em {
+    font-size: 1.05em;
+}
+
+.font-size-1-1em {
+    font-size: 1.1em;
+}
+
+.font-size-1-15em {
+    font-size: 1.15em;
+}
+
+.font-size-1-2em {
+    font-size: 1.2em;
+}
+
+.font-size-1-25em {
+    font-size: 1.25em;
+}
+
+.font-size-1-3em {
+    font-size: 1.3em;
+}
+
+.font-size-1-35em {
+    font-size: 1.35em;
+}
+
+.font-size-1-4em {
+    font-size: 1.4em;
+}
+
+.font-size-1-45em {
+    font-size: 1.45em;
+}
+
+.font-size-1-5em {
+    font-size: 1.5em;
+}
+
+.font-size-1-55em {
+    font-size: 1.55em;
+}
+
+.font-size-1-6em {
+    font-size: 1.6em;
+}
+
+.font-size-1-65em {
+    font-size: 1.65em;
+}
+
+.font-size-1-7em {
+    font-size: 1.7em;
+}
+
+.font-size-1-75em {
+    font-size: 1.75em;
+}
+
+.font-size-1-8em {
+    font-size: 1.8em;
+}
+
+.font-size-1-85em {
+    font-size: 1.85em;
+}
+
+.font-size-1-9em {
+    font-size: 1.9em;
+}
+
+.font-size-1-95em {
+    font-size: 1.95em;
+}
+
+.font-size-2-0em {
+    font-size: 2em;
+}
+
+.font-size-2-05em {
+    font-size: 2.05em;
+}
+
+.font-size-2-1em {
+    font-size: 2.1em;
+}
+
+.font-size-2-15em {
+    font-size: 2.15em;
+}
+
+.font-size-2-2em {
+    font-size: 2.2em;
+}
+
+.font-size-2-25em {
+    font-size: 2.25em;
+}
+
+.font-size-2-3em {
+    font-size: 2.3em;
+}
+
+.font-size-2-35em {
+    font-size: 2.35em;
+}
+
+.font-size-2-4em {
+    font-size: 2.4em;
+}
+
+.font-size-2-45em {
+    font-size: 2.45em;
+}
+
+.font-size-2-5em {
+    font-size: 2.5em;
+}
+
+.font-size-2-55em {
+    font-size: 2.55em;
+}
+
+.font-size-2-6em {
+    font-size: 2.6em;
+}
+
+.font-size-2-65em {
+    font-size: 2.65em;
+}
+
+.font-size-2-7em {
+    font-size: 2.7em;
+}
+
+.font-size-2-75em {
+    font-size: 2.75em;
+}
+
+.font-size-2-8em {
+    font-size: 2.8em;
+}
+
+.font-size-2-85em {
+    font-size: 2.85em;
+}
+
+.font-size-2-9em {
+    font-size: 2.9em;
+}
+
+.font-size-2-95em {
+    font-size: 2.95em;
+}
+
+.font-size-3-0em {
+    font-size: 3em;
+}
+
+.font-size-3-05em {
+    font-size: 3.05em;
+}
+
+.font-size-3-1em {
+    font-size: 3.1em;
+}
+
+.font-size-3-15em {
+    font-size: 3.15em;
+}
+
+.font-size-3-2em {
+    font-size: 3.2em;
+}
+
+.font-size-3-25em {
+    font-size: 3.25em;
+}
+
+.font-size-3-3em {
+    font-size: 3.3em;
+}
+
+.font-size-3-35em {
+    font-size: 3.35em;
+}
+
+.font-size-3-4em {
+    font-size: 3.4em;
+}
+
+.font-size-3-45em {
+    font-size: 3.45em;
+}
+
+.font-size-3-5em {
+    font-size: 3.5em;
+}
+
+.font-size-3-55em {
+    font-size: 3.55em;
+}
+
+.font-size-3-6em {
+    font-size: 3.6em;
+}
+
+.font-size-3-65em {
+    font-size: 3.65em;
+}
+
+.font-size-3-7em {
+    font-size: 3.7em;
+}
+
+.font-size-3-75em {
+    font-size: 3.75em;
+}
+
+.font-size-3-8em {
+    font-size: 3.8em;
+}
+
+.font-size-3-85em {
+    font-size: 3.85em;
+}
+
+.font-size-3-9em {
+    font-size: 3.9em;
+}
+
+.font-size-3-95em {
+    font-size: 3.95em;
+}
+
+.font-size-4-0em {
+    font-size: 4em;
+}
+
+.font-size-4-05em {
+    font-size: 4.05em;
+}
+
+.font-size-4-1em {
+    font-size: 4.1em;
+}
+
+.font-size-4-15em {
+    font-size: 4.15em;
+}
+
+.font-size-4-2em {
+    font-size: 4.2em;
+}
+
+.font-size-4-25em {
+    font-size: 4.25em;
+}
+
+.font-size-4-3em {
+    font-size: 4.3em;
+}
+
+.font-size-4-35em {
+    font-size: 4.35em;
+}
+
+.font-size-4-4em {
+    font-size: 4.4em;
+}
+
+.font-size-4-45em {
+    font-size: 4.45em;
+}
+
+.font-size-4-5em {
+    font-size: 4.5em;
+}
+
+.font-size-4-55em {
+    font-size: 4.55em;
+}
+
+.font-size-4-6em {
+    font-size: 4.6em;
+}
+
+.font-size-4-65em {
+    font-size: 4.65em;
+}
+
+.font-size-4-7em {
+    font-size: 4.7em;
+}
+
+.font-size-4-75em {
+    font-size: 4.75em;
+}
+
+.font-size-4-8em {
+    font-size: 4.8em;
+}
+
+.font-size-4-85em {
+    font-size: 4.85em;
+}
+
+.font-size-4-9em {
+    font-size: 4.9em;
+}
+
+.font-size-4-95em {
+    font-size: 4.95em;
+}
+
+.font-size-5-0em {
+    font-size: 5em;
+}
+
+.font-size-1-0rem {
+    font-size: calc(1rem + 0.0vw);
+}
+
+.font-size-1-05rem {
+    font-size: calc(1.05rem + 0.05vw);
+}
+
+.font-size-1-1rem {
+    font-size: calc(1.1rem + 0.1vw);
+}
+
+.font-size-1-15rem {
+    font-size: calc(1.15rem + 0.15vw);
+}
+
+.font-size-1-2rem {
+    font-size: calc(1.2rem + 0.2vw);
+}
+
+.font-size-1-25rem {
+    font-size: calc(1.25rem + 0.25vw);
+}
+
+.font-size-1-3rem {
+    font-size: calc(1.3rem + 0.3vw);
+}
+
+.font-size-1-35rem {
+    font-size: calc(1.35rem + 0.35vw);
+}
+
+.font-size-1-4rem {
+    font-size: calc(1.4rem + 0.4vw);
+}
+
+.font-size-1-45rem {
+    font-size: calc(1.45rem + 0.45vw);
+}
+
+.font-size-1-5rem {
+    font-size: calc(1.5rem + 0.5vw);
+}
+
+.font-size-1-55rem {
+    font-size: calc(1.55rem + 0.55vw);
+}
+
+.font-size-1-6rem {
+    font-size: calc(1.6rem + 0.6vw);
+}
+
+.font-size-1-65rem {
+    font-size: calc(1.65rem + 0.65vw);
+}
+
+.font-size-1-7rem {
+    font-size: calc(1.7rem + 0.7vw);
+}
+
+.font-size-1-75rem {
+    font-size: calc(1.75rem + 0.75vw);
+}
+
+.font-size-1-8rem {
+    font-size: calc(1.8rem + 0.8vw);
+}
+
+.font-size-1-85rem {
+    font-size: calc(1.85rem + 0.85vw);
+}
+
+.font-size-1-9rem {
+    font-size: calc(1.9rem + 0.9vw);
+}
+
+.font-size-1-95rem {
+    font-size: calc(1.95rem + 0.95vw);
+}
+
+.font-size-2-0rem {
+    font-size: calc(2rem + 1.0vw);
+}
+
+.font-size-2-05rem {
+    font-size: calc(2.05rem + 1.05vw);
+}
+
+.font-size-2-1rem {
+    font-size: calc(2.1rem + 1.1vw);
+}
+
+.font-size-2-15rem {
+    font-size: calc(2.15rem + 1.15vw);
+}
+
+.font-size-2-2rem {
+    font-size: calc(2.2rem + 1.2vw);
+}
+
+.font-size-2-25rem {
+    font-size: calc(2.25rem + 1.25vw);
+}
+
+.font-size-2-3rem {
+    font-size: calc(2.3rem + 1.3vw);
+}
+
+.font-size-2-35rem {
+    font-size: calc(2.35rem + 1.35vw);
+}
+
+.font-size-2-4rem {
+    font-size: calc(2.4rem + 1.4vw);
+}
+
+.font-size-2-45rem {
+    font-size: calc(2.45rem + 1.45vw);
+}
+
+.font-size-2-5rem {
+    font-size: calc(2.5rem + 1.5vw);
+}
+
+.font-size-2-55rem {
+    font-size: calc(2.55rem + 1.55vw);
+}
+
+.font-size-2-6rem {
+    font-size: calc(2.6rem + 1.6vw);
+}
+
+.font-size-2-65rem {
+    font-size: calc(2.65rem + 1.65vw);
+}
+
+.font-size-2-7rem {
+    font-size: calc(2.7rem + 1.7vw);
+}
+
+.font-size-2-75rem {
+    font-size: calc(2.75rem + 1.75vw);
+}
+
+.font-size-2-8rem {
+    font-size: calc(2.8rem + 1.8vw);
+}
+
+.font-size-2-85rem {
+    font-size: calc(2.85rem + 1.85vw);
+}
+
+.font-size-2-9rem {
+    font-size: calc(2.9rem + 1.9vw);
+}
+
+.font-size-2-95rem {
+    font-size: calc(2.95rem + 1.95vw);
+}
+
+.font-size-3-0rem {
+    font-size: calc(3rem + 2.0vw);
+}
+
+.font-size-3-05rem {
+    font-size: calc(3.05rem + 2.05vw);
+}
+
+.font-size-3-1rem {
+    font-size: calc(3.1rem + 2.1vw);
+}
+
+.font-size-3-15rem {
+    font-size: calc(3.15rem + 2.15vw);
+}
+
+.font-size-3-2rem {
+    font-size: calc(3.2rem + 2.2vw);
+}
+
+.font-size-3-25rem {
+    font-size: calc(3.25rem + 2.25vw);
+}
+
+.font-size-3-3rem {
+    font-size: calc(3.3rem + 2.3vw);
+}
+
+.font-size-3-35rem {
+    font-size: calc(3.35rem + 2.35vw);
+}
+
+.font-size-3-4rem {
+    font-size: calc(3.4rem + 2.4vw);
+}
+
+.font-size-3-45rem {
+    font-size: calc(3.45rem + 2.45vw);
+}
+
+.font-size-3-5rem {
+    font-size: calc(3.5rem + 2.5vw);
+}
+
+.font-size-3-55rem {
+    font-size: calc(3.55rem + 2.55vw);
+}
+
+.font-size-3-6rem {
+    font-size: calc(3.6rem + 2.6vw);
+}
+
+.font-size-3-65rem {
+    font-size: calc(3.65rem + 2.65vw);
+}
+
+.font-size-3-7rem {
+    font-size: calc(3.7rem + 2.7vw);
+}
+
+.font-size-3-75rem {
+    font-size: calc(3.75rem + 2.75vw);
+}
+
+.font-size-3-8rem {
+    font-size: calc(3.8rem + 2.8vw);
+}
+
+.font-size-3-85rem {
+    font-size: calc(3.85rem + 2.85vw);
+}
+
+.font-size-3-9rem {
+    font-size: calc(3.9rem + 2.9vw);
+}
+
+.font-size-3-95rem {
+    font-size: calc(3.95rem + 2.95vw);
+}
+
+.font-size-4-0rem {
+    font-size: calc(4rem + 3.0vw);
+}
+
+.font-size-4-05rem {
+    font-size: calc(4.05rem + 3.05vw);
+}
+
+.font-size-4-1rem {
+    font-size: calc(4.1rem + 3.1vw);
+}
+
+.font-size-4-15rem {
+    font-size: calc(4.15rem + 3.15vw);
+}
+
+.font-size-4-2rem {
+    font-size: calc(4.2rem + 3.2vw);
+}
+
+.font-size-4-25rem {
+    font-size: calc(4.25rem + 3.25vw);
+}
+
+.font-size-4-3rem {
+    font-size: calc(4.3rem + 3.3vw);
+}
+
+.font-size-4-35rem {
+    font-size: calc(4.35rem + 3.35vw);
+}
+
+.font-size-4-4rem {
+    font-size: calc(4.4rem + 3.4vw);
+}
+
+.font-size-4-45rem {
+    font-size: calc(4.45rem + 3.45vw);
+}
+
+.font-size-4-5rem {
+    font-size: calc(4.5rem + 3.5vw);
+}
+
+.font-size-4-55rem {
+    font-size: calc(4.55rem + 3.55vw);
+}
+
+.font-size-4-6rem {
+    font-size: calc(4.6rem + 3.6vw);
+}
+
+.font-size-4-65rem {
+    font-size: calc(4.65rem + 3.65vw);
+}
+
+.font-size-4-7rem {
+    font-size: calc(4.7rem + 3.7vw);
+}
+
+.font-size-4-75rem {
+    font-size: calc(4.75rem + 3.75vw);
+}
+
+.font-size-4-8rem {
+    font-size: calc(4.8rem + 3.8vw);
+}
+
+.font-size-4-85rem {
+    font-size: calc(4.85rem + 3.85vw);
+}
+
+.font-size-4-9rem {
+    font-size: calc(4.9rem + 3.9vw);
+}
+
+.font-size-4-95rem {
+    font-size: calc(4.95rem + 3.95vw);
+}
+
+.font-size-5-0rem {
+    font-size: calc(5rem + 4.0vw);
+}
