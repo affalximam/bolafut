@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOON</title>
+
+    <link rel="stylesheet" href="/app/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/19bde2125b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-one">
+
+
+    <nav class="navbar navbar-top fixed-top bg-two">
+        <div class="container-fluid">
+            <h1 class="navbar-brand text-white pt-sans-bold">
+                BOLAFUT
+            </h1>
+            <div class="nav-right">
+                <a href="/search" id="pelanggan-navbar-search" class="navbar-toggler ms-auto border-0">
+                    <i class="fa-solid fa-magnifying-glass font-size-1-5em text-white"></i>
+                </a>
+                <button id="pelanggan-navbar-toggler" class="navbar-toggler ms-auto border-0" type="button">
+                    <i class="fa-solid fa-ellipsis-vertical fa-2x text-white"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pelanggan-navigation-top"
+        class="pelanggan-navigation-top d-none bg-two  position-fixed py-2 px-3 rounded rounded-2">
+        <div class="row">
+            <a href="/history" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-clock-history me-2"></i>
+                Riwayat
+            </a>
+            <a href="/cari-lawan" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-plus-square me-2"></i>
+                Cari Lawan
+            </a>
+            <a href="/settings" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-gear-fill me-2"></i>
+                Pengaturan
+            </a>
+            <a href="/account" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-person-circle me-2"></i>
+                Akun
+            </a>
+        </div>
+    </div>
+
+    <section class="min-vh-100 d-flex flex-column justify-content-center">
+        <i class="fa-solid fa-gear text-center font-size-3-5em fa-spin"></i>
+        <h1 class="font-size-2-5rem text-center pt-sans-bold">Coming Soon</h1>
+    </section>
+
+    <nav class="navbar navbar-bottom fixed-bottom bg-two pb-3">
+        <div class="container-fluid p-0">
+            <div class="d-flex justify-content-around w-100 text-center m-0 text-white">
+                <a href="/jadwal" class="text-decoration-none text-white cursor-pointer opacity-50 ">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="fa-solid fa-futbol"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Jadwal</p>
+                </a>
+                <a href="/booking" class="text-decoration-none text-white cursor-pointer opacity-50 ">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="court-futbol"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Booking</p>
+                </a>
+                <a href="/cari-lawan" class="text-decoration-none text-white cursor-pointer opacity-50 ">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="vs"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Cari Lawan</p>
+                </a>
+                <a href="/event" class="text-decoration-none text-white cursor-pointer opacity-50 ">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Event</p>
+                </a>
+                <a href="/admin" class="text-decoration-none text-white cursor-pointer opacity-50 ">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Admin</p>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <script type="module" src="/app/js/dashboard.js"></script>
+</body>
+
+</html>

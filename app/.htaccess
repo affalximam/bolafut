@@ -1,0 +1,12 @@
+<FilesMatch "\.(php|html)$">
+    # Untuk Apache 2.2 dan lebih lama
+    Order Deny,Allow
+    Deny from all
+
+    # Untuk Apache 2.4 dan lebih baru
+    <IfModule mod_authz_core.c>
+        Require all denied
+    </IfModule>
+</FilesMatch>
+
+Options -Indexes

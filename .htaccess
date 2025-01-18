@@ -7,17 +7,17 @@ ErrorDocument 500 /
 Options -Indexes
 
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.php -f
-RewriteRule ^(.*)$ $1.php
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.php -f
+    RewriteRule ^(.*)$ $1.php
 </IfModule>
 
 <IfModule mod_rewrite.c>
-RewriteEngine on
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_FILENAME}.html -f
-RewriteRule ^(.*)$ $1.html
+    RewriteEngine on
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^(.*)$ $1.html
 </IfModule>
 
 <IfModule mod_rewrite.c>
@@ -27,6 +27,13 @@ RewriteRule ^(.*)$ $1.html
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
 
-    # Redirect all requests like /something to index.php?page=something
+    # Redirect /jadwal-details/1 to index.php?page=jadwal-details&id_booking=1
+    RewriteRule ^jadwal-detail/([0-9]+)$ index.php?page=jadwal-detail&id_booking=$1 [QSA,L]
+    RewriteRule ^booking-details/([0-9]+)$ index.php?page=booking-details&lapangan_id=$1 [QSA,L]
+    RewriteRule ^cari-lawan-detail/([0-9]+)$ index.php?page=cari-lawan-detail&cari_lawan_id=$1 [QSA,L]
+    RewriteRule ^event-detail/([0-9]+)$ index.php?page=event-detail&event_id=$1 [QSA,L]
+    RewriteRule ^users-detail/([0-9]+)$ index.php?page=users-detail&users_id=$1 [QSA,L]
+
+    # Redirect all other requests like /something to index.php?page=something
     RewriteRule ^([^/]+)$ index.php?page=$1 [QSA,L]
 </IfModule>

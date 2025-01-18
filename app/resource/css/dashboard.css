@@ -1,0 +1,140 @@
+@import url('bootstrap.min.css');
+@import url('color.css');
+@import url('font.css');
+@import url('basic.css');
+@import url('icons.css');
+
+.navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar{
+    min-height: 75px;
+}
+
+.navbar-bottom-pelanggan .icons{
+    height: 30px;
+}
+
+.navbar-bottom-pelanggan .icons i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.navbar-bottom-pelanggan a{
+    min-width: calc(100% / 5);
+}
+
+
+.jadwal .card:hover{
+    background-color: #FFF;
+}
+
+.booking .card:hover{
+    background-color: #FFF;
+}
+
+.cari-lawan .card:hover{
+    background-color: #FFF;
+}
+
+.pelanggan-navigation-top{
+    width: 90%;
+    overflow: hidden;
+    top: 75px;
+    right: 20px;
+    z-index: 999;
+}
+
+.pengelola-navigation-top{
+    width: 90%;
+    overflow: hidden;
+    top: 75px;
+    right: 20px;
+    z-index: 999;
+}
+
+.admin-profile-picture{
+    height: 300px;
+    width: 100%;
+}
+
+.admin-profile-picture .top-bg{
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.admin-profile-picture .img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 100px);
+}
+
+.navbar-bottom-pengelola a{
+    min-width: calc(100% / 6);
+}
+
+.navbar-bottom-pengelola .icons{
+    height: 30px;
+}
+
+.navbar-bottom-pengelola .icons i{
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.users-profile-picture{
+    height: 300px;
+    width: 100%;
+}
+
+.users-profile-picture .top-bg{
+    width: 100%;
+    height: 200px;
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+.users-profile-picture .img{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: calc(50% - 100px);
+}
+
+input,
+input:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+select,
+select:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+button,
+button:focus{
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}

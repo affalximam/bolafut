@@ -1,0 +1,23 @@
+.court-futbol {
+    width: 24px;
+    height: 26px;
+    background-image: url("/assets/icons/court-field.svg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    display: block; 
+}
+
+.vs {
+    width: 24px;
+    height: 26px;
+    background-image: url("/assets/icons/VS.svg");
+    background-repeat: no-repeat;
+    background-size: contain; 
+    background-position: center; 
+    display: block; 
+}
+
+.invert-1{
+    filter: invert(1)
+}

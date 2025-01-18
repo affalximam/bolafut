@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DASHBOARD</title>
+
+    <link rel="stylesheet" href="/app/resource/css/dashboard.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://kit.fontawesome.com/19bde2125b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body class="bg-one">
+
+
+    <nav class="navbar navbar-top fixed-top bg-two">
+        <div class="container-fluid">
+            <h1 class="navbar-brand text-white pt-sans-bold">
+                BOLAFUT
+            </h1>
+            <div class="nav-right">
+                <a href="/search" id="pengelola-navbar-search" class="navbar-toggler ms-auto border-0">
+                    <i class="fa-solid fa-magnifying-glass font-size-1-5em text-white"></i>
+                </a>
+                <button id="pengelola-navbar-toggler" class="navbar-toggler ms-auto border-0" type="button">
+                    <i class="fa-solid fa-ellipsis-vertical fa-2x text-white"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <div id="pengelola-navigation-top"
+        class="pengelola-navigation-top d-none bg-two  position-fixed py-2 px-3 rounded rounded-2">
+        <div class="row">
+            <a href="/#" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="fa-solid fa-ban me-2"></i>
+                Banned
+            </a>
+            <a href="/#" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-arrow-counterclockwise me-2"></i>
+                UnBanned
+            </a>
+            <a href="/cari-lawan" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-plus-square me-2"></i>
+                Cari Lawan
+            </a>
+            <a href="/history" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-clock-history me-2"></i>
+                Riwayat
+            </a>
+            <a href="/report" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="fa-regular fa-file-pdf me-2"></i>
+                Laporan
+            </a>
+            <a href="/settings" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-gear-fill me-2"></i>
+                Pengaturan
+            </a>
+            <a href="/account" class="text-white text-decoration-none py-1 font-size-1-2rem pt-sans-bold">
+                <i class="bi bi-person-circle me-2"></i>
+                Akun
+            </a>
+        </div>
+    </div>
+
+    <section>
+        <div class="users-profile-picture">
+            <div class="top-bg bg-two z-0 pt-75px">
+                <span class="d-inline-block text-white ps-3">@affalximam</span>
+            </div>
+            <div class="img z-2 rounded-circle">
+                <img src="/assets/images/image 1.png" class="w-100 h-100" alt="" srcset="">
+            </div>
+        </div>
+        <div class="row text-center">
+            <h1 class="font-size-2-0em pt-sans-bold">affalximam</h1>
+            <h3 class="font-size-1-5em pt-sans-bold">history</h3>
+        </div>
+        <div class="row px-3">
+            <div class="col-md-6 col-xl-4 my-2">
+                <a href="#" class="card bg-none ts-0-5s w-100 border-0 px-3 py-2 text-decoration-none pt-sans-bold">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="/assets/icons/futbol-solid 1.svg" class="invert-1 w-100 m-auto" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="pt-sans-bold font-size-1-5em">Bluesky VS Blacksteel</h1>
+                            <h2 class="pt-sans-bold font-size-1-2em">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lapangan Futsal 1
+                            </h2>
+                            <h2 class="pt-sans-bold font-size-1-2em">
+                                <i class="fa-solid fa-clock"></i>
+                                <time datetime="DDMMYYYY">9-11-2024</time>
+                                (21.00 - 22.00)
+                            </h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-xl-4 my-2">
+                <a href="#" class="card bg-none ts-0-5s w-100 border-0 px-3 py-2 text-decoration-none pt-sans-bold">
+                    <div class="row">
+                        <div class="col-3">
+                            <img src="/assets/icons/futbol-solid 1.svg" class="invert-1 w-100 m-auto" alt="">
+                        </div>
+                        <div class="col-9">
+                            <h1 class="pt-sans-bold font-size-1-5em">Bluesky VS Blacksteel</h1>
+                            <h2 class="pt-sans-bold font-size-1-2em">
+                                <i class="fa-solid fa-location-dot"></i>
+                                Lapangan Futsal 1
+                            </h2>
+                            <h2 class="pt-sans-bold font-size-1-2em">
+                                <i class="fa-solid fa-clock"></i>
+                                <time datetime="DDMMYYYY">9-11-2024</time>
+                                (21.00 - 22.00)
+                            </h2>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <nav class="navbar navbar-bottom-pengelola fixed-bottom bg-two pb-3">
+        <div class="container-fluid p-0">
+            <div class="d-flex justify-content-around w-100 text-center m-0 text-white">
+                <a href="/jadwal" class="navbar-bottom-url text-decoration-none text-white cursor-pointer opacity-50 active">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="fa-solid fa-futbol"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Jadwal</p>
+                </a>
+                <a href="/booking" class="navbar-bottom-url text-decoration-none text-white cursor-pointer opacity-50">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="court-futbol"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Booking</p>
+                </a>
+                <a href="/cari-lawan" class="navbar-bottom-url text-decoration-none text-white cursor-pointer opacity-50">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="vs"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Cari Lawan</p>
+                </a>
+                <a href="/event" class="navbar-bottom-url text-decoration-none text-white cursor-pointer opacity-50">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Event</p>
+                </a>
+                <a href="/admin" class="navbar-bottom-url text-decoration-none text-white cursor-pointer opacity-50">
+                    <div class="icons rounded rounded-3 text-center align-items-center d-flex justify-content-center">
+                        <i class="bi bi-person-circle"></i>
+                    </div>
+                    <p class="mb-0 pb-0 pt-sans-bold">Admin</p>
+                </a>
+            </div>
+        </div>
+    </nav>
+    
+
+    <script type="module" src="/app/resource/js/dashboard.js"></script>
+</body>
+
+</html>
